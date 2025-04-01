@@ -1,27 +1,3 @@
-// import React from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Register from "./components/Register";
-// import Login from "./components/Login";
-// import VerifyEmail from "./pages/VerifyEmail";
-
-// const App = () => {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route
-//           path="/register/customer"
-//           element={<Register role="customer" />}
-//         />
-//         <Route path="/register/admin" element={<Register role="admin" />} />
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/verify-email/:token" element={<VerifyEmail />} />
-//       </Routes>
-//     </Router>
-//   );
-// };
-
-// export default App;
-
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import {
